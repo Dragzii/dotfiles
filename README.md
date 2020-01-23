@@ -1,2 +1,2 @@
-# polybar-rice
-Personal polybar rice
+# dotfiles
+My personal Dotfiles, including polybar, .Xresources, .zshrc, sxhkdrc, and other config files.
