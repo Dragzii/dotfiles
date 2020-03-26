@@ -1,14 +1,15 @@
 #
 # wm independent hotkeys
 #
-
+Print
+	gnome-screenshot
 # terminal emulator
 super + Return
-	urxvt
+	alacritty
 
 # program launcher
 super + @space
-  rofi -combi-modi window,drun,ssh -theme solarized -font "envypn 10" -show combi
+	dmenu_extended_run
 
 # make sxhkd reload its configuration files:
 super + Escape
