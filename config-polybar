@@ -31,7 +31,7 @@ alert = #C33F31
 
 [bar/hdmi]
 enable-ipc = true
-monitor = HDMI-A-0
+monitor = HDMI-1
 width = 100%
 height = 27
 ;offset-x = 1%
@@ -84,7 +84,7 @@ cursor-scroll = ns-resize
 
 [bar/dvi]
 enable-ipc = true
-monitor = DVI-D-0
+monitor = DVI-D-1
 width = 100%
 height = 27
 ;offset-x = 1%
@@ -112,7 +112,7 @@ font-0 =  envypn:style=Regular:pixelsize=8x;1
 font-1 =  Hurmit Nerd Font:style=medium:pixelsize=8x
 
 modules-left = bspwm
-modules-center = player-mpris-simple
+modules-center =
 modules-right = filesystem memory cpu pulseaudio wlan date
 
 tray-position = right
@@ -231,7 +231,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlx9cefd5fb1d5a
+interface = wlp8s0f3u1
 interval = 3.0
 
 format-connected = <label-connected>
@@ -412,10 +412,10 @@ type = custom/text
 content = ﭮ
 content-padding = 1
 content-foreground = ${colors.foreground}
-click-left = discord &
+click-left = Discord &
 [module/steam]
 type = custom/text
-content = 
+content = 
 content-padding = 1
 content-foreground = ${colors.foreground}
-click-left = steam &
+click-left = emacs &
