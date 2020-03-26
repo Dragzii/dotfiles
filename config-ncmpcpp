@@ -3,8 +3,8 @@
  mpd_music_dir = "~/Music/Music"  
  lyrics_directory  = ~/.ncmpcpp/lyrics
  ncmpcpp_directory  = ~/Music/Music
- mpd_host = "0.0.0.0"
- mpd_port = "6600"  
+ mpd_host = "127.0.0.1"
+ mpd_port = "6680"  
  mpd_connection_timeout = "60"  
  mpd_crossfade_time = "5"  
 
