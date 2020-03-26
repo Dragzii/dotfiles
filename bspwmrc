@@ -6,6 +6,8 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         2
 bspc config window_gap          12
+bspc config active_border_color "#080811"
+bspc config normal_border_color "#06060D"
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
@@ -17,13 +19,11 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-$HOME/.config/polybar/launch.sh
+feh --bg-fill ~/Downloads/435984.jpg
 
+$HOME/.config/polybar/launch.sh
 
 xset +fp /home/natec/.fonts
 xset fp rehash
 
-feh --bg-center ~/Downloads/435984.jpg
-
-bspc config active_border_color \#b5b0c7
-bspc config normal_border_color \#b5b0c7
+picom &
