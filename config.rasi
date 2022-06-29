@@ -1,0 +1,5 @@
+configuration {
+              font: "Gohufont 10";
+              modi: "window,drun,ssh,combi";
+              combi-modi: "window,drun,run,ssh";
+              }
